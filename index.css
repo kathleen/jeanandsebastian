@@ -39,12 +39,15 @@ nav li {
   display: inline-block;
 }
 
-li a, a:visited {
+nav li a, a:visited {
   text-transform: uppercase;
-  text-decoration: none;
   margin: 0 1.5rem;
   letter-spacing: 0.1rem;
   font-size: 0.85rem;
+}
+
+li a, a:visited {
+  text-decoration: none;
   color: inherit;
 }
 
@@ -62,9 +65,7 @@ li a:hover {
 
 .hero-image {
   width: 50%;
-  border-width: 10px;
-  border-color: navy;
-  border-style: solid;
+  border: 10px solid navy;
 }
 
 .main-divider {
@@ -121,4 +122,20 @@ li a:hover {
   margin-top: 3rem;
   width: 70%;
   height: 20rem;
+}
+
+.registry-list {
+  width: 40%;
+  margin: 2rem auto 0;
+}
+
+.registry-list li {
+  text-align: left;
+  margin: 1.5rem 0;
+}
+
+.photo {
+  width: 50%;
+  border: 10px solid navy;
+  margin: 0 0 4rem;
 }
