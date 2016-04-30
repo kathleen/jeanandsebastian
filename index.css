@@ -101,6 +101,7 @@ li a:hover {
   margin: 2rem 0rem 2rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
+  font-size: 1.2rem;
 }
 
 .location-heading {
@@ -138,4 +139,28 @@ li a:hover {
   width: 50%;
   border: 10px solid navy;
   margin: 0 0 4rem;
+}
+
+.hotel {
+  margin: 2.8rem 0;
+}
+
+.hotel a, .hotel a:visited {
+  color: #000;
+}
+
+.hotel-name {
+  font-family: 'Cardo', serif;
+  font-style: normal;
+  font-size: 1.2rem;
+}
+
+h2 {
+  font-family: 'Cardo', serif;
+  font-style: bold;
+  font-size: 1.6rem;
+}
+
+.hotels {
+  margin-top: 4rem;
 }
