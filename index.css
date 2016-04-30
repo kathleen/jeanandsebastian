@@ -164,3 +164,19 @@ h2 {
 .hotels {
   margin-top: 4rem;
 }
+
+.bridal-party{
+  display: flex;
+  justify-content: center;
+}
+
+div.bridesmaids, div.groomsmen {
+    margin: 0 2rem;
+}
+
+.bridesmaids div, .groomsmen div {
+  font-family: 'Cardo', serif;
+  font-style: italic;
+  font-size: 1.2rem;
+  margin-top: .8rem;
+}
